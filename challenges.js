@@ -1,3 +1,9 @@
+// Great job Mr Elo🚀 on solving the coding challenge! 
+//Your solution demonstrates a solid understanding of the problem and the implementation logic. 
+//I'm impressed by your use of conditional statements to handle different scenarios, as well as 
+//your attention to detail in calculating the total bill accurately.
+//Keep up the good work and continue practicing your coding skills – you're making excellent progress!
+
 // =================TEST DATA FOR QUESTION 1===========
 // Case1:
 // const mainCourseCount1 = 2;
@@ -37,6 +43,7 @@
 // }else{
 //     console.log(`There's an error in your inputted values. Check them , and try again`);
 // }
+//
 
 // =================TEST DATA FOR QUESTION 2===========
 // const age1 = 20;
@@ -67,6 +74,28 @@
 // }else{
 //     console.log(`You've inputted invalid details`);
 // }
+// Welldone Mr Elo, you have effectively implemented the eligibility check based on the provided rules and input values.
+// The solution is clear and covers all the scenarios outlined in the challenge.
+//However, I'd like to point out a small improvement that can be made in the code.
+//Instead of using a series of if and else if statements for the 16-17 age range,
+//it's possible to combine those two cases since they both result in the same eligibility status. 
+//Check this out:
+// const age = prompt("Please enter your age");
+// const vehicleType = prompt("Please enter the vehicle type you want");
+
+// if (age > 0 && age < 16) {
+//     console.log(`You're NOT ELIGIBLE for any vehicle`);
+// } else if ((age == 16 || age == 17) && (vehicleType == "M" || vehicleType == "S")) {
+//     console.log(`You're ELIGIBLE for a Moped(M) or Scooter(S)`);
+// } else if (age >= 18) {
+//     if (vehicleType == "C") {
+//         console.log(`You're NOT ELIGIBLE for a Car(C), but you're ELIGIBLE for a Moped(M) or Scooter(S)`);
+//     } else {
+//         console.log(`You're ELIGIBLE for any vehicle, including a Moped(M), Scooter(S), or Car(C)`);
+//     }
+// } else {
+//     console.log(`You've inputted invalid details`);
+// }
 
 // =================TEST DATA FOR QUESTION 3===========
 
@@ -81,6 +110,8 @@
 // const customerAge3 = 30;
 // const purchaseAmount3 = 150;
 // Output: 135
+
+// Wonderful, you have done really well sir. Keep it up🚀
 
 // ================== MY SOLUTION TO QUESTION 2 ==================
 // const customerAge = prompt("Please enter the customer's age");
